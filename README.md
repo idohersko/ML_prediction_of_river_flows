@@ -26,9 +26,11 @@ In this repository you will find 3 models for each link betweeen meteorological 
 In order to access them, you can (1) run the main_code.ipynb, (2) use the GUI application.
 
 
-<img src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/f89df7d7-1cfc-438f-bc1b-de56e90c739d" width="250" height="500">
+<img src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/f89df7d7-1cfc-438f-bc1b-de56e90c739d" width="350" height="450">
+
 
 We are also providing a code for analysis of the model using SHAP.
+
 <img src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/9344d179-5cea-4715-891f-d3d12b185aa0" width="400" height="250">
 
 
