@@ -43,7 +43,7 @@ We are also providing a code for analysis of the model using SHAP.
   - **Images/**: Images used in the GUI.
     - all.gif
     - all_new.png
-  - **Models/**: Pre-trained machine learning models.
+  - **Models/**: 63 trained machine learning models (21 links * 3).
     - model1.pkl
     - model2.pkl
     - model3.pkl
