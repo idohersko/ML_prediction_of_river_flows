@@ -1,46 +1,20 @@
 # ML Prediction of River Flows
 
-![River Flow](https://github.com/yourusername/ML_prediction_of_river_flows/blob/main/meteorologicalServiceGUI/Images/all_new.png)
+![River Flow](https://github.com/idohersko/ML_prediction_of_river_flows/blob/main/meteorologicalServiceGUI/Images/all_new.png)
 
 ## Overview
 
 Southern Israel faces a critical challenge in water resource management due to the lack of historical hydraulic flow data. This repository presents a machine learning approach to predict historical river flows using high-resolution 10-minute meteorological data. The project includes data collection, feature engineering, model training, and a GUI application for further research.
 
-### Abstract
-
-Southern Israel lacks historical hydraulic flow data beyond the last 20 years, impacting water resource management. This study utilizes machine learning to predict river flows from meteorological data, resulting in 21 models for 21 links between meteorological and hydraulic stations. Our top-performing XGBoost model achieves a 98% precision and recall rate.
-
-### Introduction
-
-Water resource management in arid regions like Southern Israel is crucial. While meteorological data spans decades, historical hydraulic flow data is limited to the past two decades, hindering water resource understanding. This project bridges the gap by predicting river flows using high-resolution meteorological data.
-
 ### Method and Experimental Setup
 
 #### Datasets
-
+All the csv datasets are available in the data directory.
+Our data sources :
 - **IMS Data**: Meteorological data obtained from the Israeli Meteorological Service (IMS).
 - **Flows Data**: River flow data from the Water Authority in Israel for three periods.
 - **Link Data**: Dataset for setting up time windows and links between meteorological and hydraulic stations.
 - **Hydraulic Stations**: Hydraulic station data from the Water Authority.
-
-#### Visualization
-
-- Visualizations of flow patterns and attributes.
-- Average flow strength and flow occurrences.
-- IMS data analysis, including temperature, humidity, and rain patterns.
-- Map of meteorological and hydraulic station locations.
-
-#### Features Engineering
-
-- Description of key features used in the dataset.
-- Features like temperature, humidity, rainfall, and more.
-- Target label: 1 for flow, 0 for no flow.
-
-#### Preprocess and Dataframe Building
-
-- Data cleaning and preprocessing steps.
-- Generation of features based on the IMS dataset.
-- Integration of datasets and temporal relationships.
 
 ## Repository Structure
 
@@ -57,10 +31,10 @@ Water resource management in arid regions like Southern Israel is crucial. While
     - model2.pkl
     - model3.pkl
     - ...
-    - model4.pkl
+    - model21.pkl
   - runGui.py: GUI application code.
 - Visualization.ipynb: Jupyter notebook for data visualization.
-- get_data_from_api.py: Script for retrieving data from APIs.
+- get_data_from_api.py: Script for retrieving data from APIs of the IMS.
 - main_code.ipynb: Jupyter notebook for the main project code.
 - README.md: This readme file.
 
