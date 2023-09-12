@@ -5,14 +5,28 @@
 ## Overview
 Southern Israel faces a critical challenge in water resource management due to the lack of historical hydraulic flow data. This repository presents a machine learning approach to predict historical river flows using high-resolution 10-minute meteorological data. The project includes data collection, feature engineering, model training, and a GUI application for further research.
 
-### Method and Experimental Setup
-#### Datasets
+
+## Datasets
 All the csv datasets are available in the data directory.
 Our data sources :
 - **IMS Data**: Meteorological data obtained from the Israeli Meteorological Service (IMS).
 - **Flows Data**: River flow data from the Water Authority in Israel for three periods.
 - **Link Data**: Dataset for setting up time windows and links between meteorological and hydraulic stations.
 - **Hydraulic Stations**: Hydraulic station data from the Water Authority.
+Every dataset can be analyzed with visualizations in the visualizations.ipynb
+
+![2001-2006-2016-rain](https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/871d1ab6-3f29-4f61-a3a9-19ee12cef601)
+![year_flows](https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/abd8a864-e8ce-4029-80b0-30d1941dd994)
+
+
+## Models and Analysis
+In this repository you will find 3 models for each link betweeen meteorological station and hydraulic stations, resulting in a total of 63 ML models. 
+In order to access them, you can (1) run the main_code.ipynb, (2) use the GUI application.
+<img width="294" alt="gui_success" src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/78252fab-15f7-4abd-9e16-858198bf8c4f">
+
+We are also providing a code for analysis of the model using SHAP.
+![avdat_xgboost_malemapal_shap_1](https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/9344d179-5cea-4715-891f-d3d12b185aa0)
+
 
 ## Repository Structure
 - **data/**: Folder containing raw data files.
