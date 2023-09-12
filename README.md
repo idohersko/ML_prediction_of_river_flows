@@ -39,6 +39,7 @@ We are also providing a code for analysis of the model using SHAP.
   - 10min_data.rar
   - flows_and_link_data.rar
   - stations_longitude_latitude.rar
+- **assets/**: Folder containing png files for the readme.
 - **meteorologicalServiceGUI/**: Folder containing the GUI application.
   - **Images/**: Images used in the GUI.
     - all.gif
