@@ -1,6 +1,6 @@
 # Machine Learning Prediction of River Flows in Southern Israel using Meteotological Data 
 
-<img src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/c59cc6dd-09f3-4dd6-97b4-36d3beac0dcf" width="1000" height="300">
+<img src="readme/southern.jpg" width="1000" height="300">
 
 ## Overview
 
@@ -17,7 +17,7 @@ Our data sources :
 - **Hydraulic Stations**: Hydraulic station data from the Water Authority.
 Every dataset can be analyzed with visualizations in the visualizations.ipynb
 
-<img src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/871d1ab6-3f29-4f61-a3a9-19ee12cef601" width="1000" height="250">
+<img src="readme/2001-2006-2016.png" width="1000" height="250">
 <!-- <img src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/abd8a864-e8ce-4029-80b0-30d1941dd994" width="500" height="300"> -->
 
 
