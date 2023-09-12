@@ -62,6 +62,7 @@ We are also providing a code for analysis of the model using SHAP.
 ## Acknowlegment
 
 We would like to deeply thank Dr. Avshalom Babad and Dr. Merav Cohen from the dead sea and the arava science center for their guidance and help througout the research.
+Also, we would like to thanks Dr. Michael Fire for giving us the opportunity and the idea for this research.
 
 ![River Flow](https://github.com/idohersko/ML_prediction_of_river_flows/blob/main/meteorologicalServiceGUI/Images/all_new.png)
 
