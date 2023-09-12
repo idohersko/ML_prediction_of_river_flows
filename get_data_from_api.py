@@ -17,7 +17,7 @@ for k, v in dict_stations.items():
         for i in v:
             try:
                 url = f"https://api.ims.gov.il/v1/envista/stations/{i}/data/?from={year}/09/01&to={year + 1}/06/01"
-                headers = {'Authorization': 'ApiToken f058958a-d8bd-47cc-95d7-7ecf98610e47'}
+                headers = {'Authorization': 'ApiToken XXXX-XXXX-XXXX-XXXX-XXXX'} #in order to get an api token, please visit ims.gov.il
                 response = requests.get(url, headers=headers, verify=False)
                 data = json.loads(response.text.encode('utf8'))
                 flag = True
