@@ -3,10 +3,12 @@
 ![shutterstock_2080095004-2_kjmevk](https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/c59cc6dd-09f3-4dd6-97b4-36d3beac0dcf)
 
 ## Overview
+
 Southern Israel faces a critical challenge in water resource management due to the lack of historical hydraulic flow data. This repository presents a machine learning approach to predict historical river flows using high-resolution 10-minute meteorological data. The project includes data collection, feature engineering, model training, and a GUI application for further research.
 
 
 ## Datasets
+
 All the csv datasets are available in the data directory.
 Our data sources :
 - **IMS Data**: Meteorological data obtained from the Israeli Meteorological Service (IMS).
@@ -57,7 +59,7 @@ We are also providing a code for analysis of the model using SHAP.
 3. Explore the Jupyter notebooks and scripts for data analysis and model training.
 4. In orter to use the GUI application for predictions, you will need to runt the runGUI.py file.
 
-##Acknowlegment
+## Acknowlegment
 
 We would like to deeply thank Dr. Avshalom Babad and Dr. Merav Cohen from the dead sea and the arava science center for their guidance and help througout the research.
 
