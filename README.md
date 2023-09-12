@@ -49,7 +49,7 @@ We are also providing a code for analysis of the model using SHAP.
     - model2.pkl
     - model3.pkl
     - ...
-    - model21.pkl
+    - model63.pkl
   - runGui.py: GUI application code.
 - Visualization.ipynb: Jupyter notebook for data visualization.
 - get_data_from_api.py: Script for retrieving data from APIs of the IMS.
