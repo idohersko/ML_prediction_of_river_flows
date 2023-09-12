@@ -26,7 +26,7 @@ In this repository you will find 3 models for each link betweeen meteorological 
 In order to access them, you can (1) run the main_code.ipynb, (2) use the GUI application.
 
 
-<img src="assets/gui_success.png" width="350" height="450">
+<img src="assets/gui_success.png" width="350" height="400">
 
 
 We are also providing a code for analysis of the model using SHAP.
