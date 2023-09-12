@@ -1,6 +1,6 @@
-# ML Prediction of River Flows
+# Machine Learning Prediction of River Flows in Southern Israel using Meteotological Data
 
-![River Flow](https://github.com/idohersko/ML_prediction_of_river_flows/blob/main/meteorologicalServiceGUI/Images/all_new.png)
+![shutterstock_2080095004-2_kjmevk](https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/c59cc6dd-09f3-4dd6-97b4-36d3beac0dcf)
 
 ## Overview
 
