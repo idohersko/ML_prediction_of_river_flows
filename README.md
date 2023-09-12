@@ -22,7 +22,9 @@ Every dataset can be analyzed with visualizations in the visualizations.ipynb
 ## Models and Analysis
 In this repository you will find 3 models for each link betweeen meteorological station and hydraulic stations, resulting in a total of 63 ML models. 
 In order to access them, you can (1) run the main_code.ipynb, (2) use the GUI application.
-<img width="294" alt="gui_success" src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/78252fab-15f7-4abd-9e16-858198bf8c4f">
+
+
+![gui_success](https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/f89df7d7-1cfc-438f-bc1b-de56e90c739d)
 
 We are also providing a code for analysis of the model using SHAP.
 ![avdat_xgboost_malemapal_shap_1](https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/9344d179-5cea-4715-891f-d3d12b185aa0)
