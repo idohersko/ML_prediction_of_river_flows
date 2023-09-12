@@ -54,6 +54,7 @@ We are also providing a code for analysis of the model using SHAP.
 - Visualization.ipynb: Jupyter notebook for data visualization.
 - get_data_from_api.py: Script for retrieving data from APIs of the IMS.
 - main_code.ipynb: Jupyter notebook for the main project code.
+- paper.pdf: Our paper. 
 - README.md: This readme file.
 
 ## Getting Started
