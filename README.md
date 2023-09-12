@@ -1,6 +1,6 @@
 # Machine Learning Prediction of River Flows in Southern Israel using Meteotological Data 
 
-<img src="readme/southern.jpg" width="1000" height="300">
+<img src="assets/southern.jpg" width="1000" height="300">
 
 ## Overview
 
@@ -17,7 +17,7 @@ Our data sources :
 - **Hydraulic Stations**: Hydraulic station data from the Water Authority.
 Every dataset can be analyzed with visualizations in the visualizations.ipynb
 
-<img src="readme/2001-2006-2016.png" width="1000" height="250">
+<img src="assets/2001-2006-2016.png" width="1000" height="250">
 <!-- <img src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/abd8a864-e8ce-4029-80b0-30d1941dd994" width="500" height="300"> -->
 
 
@@ -26,12 +26,12 @@ In this repository you will find 3 models for each link betweeen meteorological 
 In order to access them, you can (1) run the main_code.ipynb, (2) use the GUI application.
 
 
-<img src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/f89df7d7-1cfc-438f-bc1b-de56e90c739d" width="350" height="450">
+<img src="assets/gui_success.png" width="350" height="450">
 
 
 We are also providing a code for analysis of the model using SHAP.
 
-<img src="https://github.com/idohersko/ML_prediction_of_river_flows/assets/66033664/9344d179-5cea-4715-891f-d3d12b185aa0" width="400" height="250">
+<img src="assets/avdat_xgboost_malemapal_shap_1.png" width="400" height="250">
 
 
 ## Repository Structure
@@ -66,5 +66,5 @@ We are also providing a code for analysis of the model using SHAP.
 We would like to deeply thank Dr. Avshalom Babad and Dr. Merav Cohen from the dead sea and the arava science center for their guidance and help througout the research.
 Also, we would like to thanks Dr. Michael Fire for giving us the opportunity and the idea for this research.
 
-![River Flow](https://github.com/idohersko/ML_prediction_of_river_flows/blob/main/meteorologicalServiceGUI/Images/all_new.png)
+![River Flow](meteorologicalServiceGUI/Images/all_new.png)
 
