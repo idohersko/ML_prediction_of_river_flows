@@ -23,7 +23,7 @@ Every dataset can be analyzed with visualizations in the visualizations.ipynb
 
 ## Models and Analysis
 In this repository you will find 3 models for each link betweeen meteorological station and hydraulic stations, resulting in a total of 63 ML models. 
-In order to access them, you can (1) run the main_code.ipynb, (2) use the GUI application.
+In order to access them, you can (1) run the main_code.ipynb, (2) use the GUI application. 
 
 
 <img src="assets/gui_success.png" width="350" height="400">
